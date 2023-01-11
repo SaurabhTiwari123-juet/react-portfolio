@@ -13,7 +13,7 @@ const ProjectCardData = [
 		imgsrc: pro2,
 		title: " text aaabn",
 		text: " aksdjscdvhdskabndsdjal",
-		view: "",
+		view: "https://www.google.com/",
 	},
 	{
 		imgsrc: pro3,
