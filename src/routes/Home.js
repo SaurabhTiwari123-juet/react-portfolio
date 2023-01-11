@@ -4,18 +4,15 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import HeroImg from "../components/HeroImg";
+import Footer from "../components/Footer";
+import Work from "../components/Work";
 const Home = () => {
 	return (
 		<div>
-			{/* <h1>gg</h1> */}
-
 			<Navbar />
 			<HeroImg />
-			<ul>
-				{/* <li>
-					<Link to='/'>Home</Link>
-				</li> */}
-			</ul>
+			<Work />
+			<Footer />
 		</div>
 	);
 };
