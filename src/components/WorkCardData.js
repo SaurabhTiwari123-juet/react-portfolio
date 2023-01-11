@@ -8,18 +8,22 @@ const ProjectCardData = [
 		title: " Search Pics App",
 		text: "This app is used when a search is performed then it shows the image related to the search item",
 		view: "https://searchpicsapp.netlify.app/",
+		src: "https://github.com/SaurabhTiwari123-juet/searchpicsapp-using-react",
 	},
+	// source
 	{
 		imgsrc: pro2,
 		title: "Youtube Media ",
-		text: " This app is a clone for youtube using react js",
+		text: " This app is a youtube clone using react js.",
 		view: "https://youtubemediaa.netlify.app",
+		src: "https://github.com/SaurabhTiwari123-juet/youtubemediaa",
 	},
 	{
 		imgsrc: pro3,
 		title: "TextUtils App",
 		text: " This is a app used for text editors according to our needs to do operations",
 		view: "https://textutilappfortext.netlify.app/",
+		src: "https://github.com/SaurabhTiwari123-juet/Textutilapp",
 	},
 ];
 

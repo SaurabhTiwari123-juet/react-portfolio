@@ -2,6 +2,7 @@
 
 import "./Footerstyle.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
 	FaFacebook,
 	FaGithub,
@@ -49,22 +50,31 @@ const Footer = () => {
 					<p> this is saurabh </p>
 
 					<div className='social'>
-						<FaFacebook
-							size={30}
-							style={{ color: "#fff", marginRight: "1rem" }}
-						/>
-						<FaTwitter
-							size={30}
-							style={{ color: "#fff", marginRight: "1rem" }}
-						/>
-						<FaLinkedin
-							size={30}
-							style={{ color: "#fff", marginRight: "1rem" }}
-						/>
-						<FaGithub
-							size={30}
-							style={{ color: "#fff", marginRight: "1rem" }}
-						/>
+						<a href='https://twitter.com/saurabh80657915' target='_blank'>
+							<FaTwitter
+								size={30}
+								style={{
+									color: "#fff",
+									marginRight: "1rem",
+									className: "fa-link",
+								}}
+							/>
+						</a>
+
+						<a
+							href='https://www.linkedin.com/in/saurabh-t-2129b9190/'
+							target='_blank'>
+							<FaLinkedin
+								size={30}
+								style={{ color: "#fff", marginRight: "1rem" }}
+							/>
+						</a>
+						<a href='https://github.com/SaurabhTiwari123-juet' target='_blank'>
+							<FaGithub
+								size={30}
+								style={{ color: "#fff", marginRight: "1rem" }}
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
