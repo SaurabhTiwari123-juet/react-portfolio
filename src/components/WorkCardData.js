@@ -5,8 +5,8 @@ import pro3 from "../assets/project3.png";
 const ProjectCardData = [
 	{
 		imgsrc: pro1,
-		title: " text aaabn",
-		text: " aksdjscdvhdskabndsdjal",
+		title: " Search Pics App",
+		text: " ",
 		view: "https://myjobsearch.netlify.app/",
 	},
 	{
